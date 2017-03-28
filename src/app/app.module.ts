@@ -7,13 +7,23 @@ import { AppComponent } from './app.component';
 import { ClickMeComponent } from './click-me.component';
 import { ClickMe2Component } from './click-me2.component';
 import { KeyUpComponent_v1 } from './keyup.component';
+import { KeyUpComponent_v2 } from './keyup2.component';
+import { KeyUpComponent_v3 } from './keyup3.component';
+import { KeyUpComponent_v4 } from './keyup4.component';
+import { LoopbackComponent } from './loop-back.component';
+import { LittleTourComponent }  from './little-tour.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ClickMeComponent,
     ClickMe2Component,
-    KeyUpComponent_v1
+    KeyUpComponent_v1,
+    LoopbackComponent,
+    KeyUpComponent_v2,
+    KeyUpComponent_v3,
+    KeyUpComponent_v4,
+    LittleTourComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +35,12 @@ import { KeyUpComponent_v1 } from './keyup.component';
     AppComponent,
     ClickMeComponent,
     ClickMe2Component,
-    KeyUpComponent_v1
+    KeyUpComponent_v1,
+    LoopbackComponent,
+    KeyUpComponent_v2,
+    KeyUpComponent_v3,
+    KeyUpComponent_v4,
+    LittleTourComponent
   ]
 })
 export class AppModule { }

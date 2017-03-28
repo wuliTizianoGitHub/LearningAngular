@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
 export class KeyUpComponent_v1{
     values = '';
 
-    onKey(event : any){
+    onKey(event : KeyboardEvent/*any*/){
        //this.values += event.target.value + ' | '
       this.values += (<HTMLInputElement>event.target).value + ' | ';
     }
